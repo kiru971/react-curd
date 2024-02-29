@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: minmax(800px, auto);
+  padding-top: 8rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  gap: 20px;
+}
+.formlogin input {
+  margin-top: 10px;
+  width: 37rem;
+  margin-bottom: 13px;
+  padding: 10px;
+  border: 0.1px solid rgb(126, 158, 170);
+}
+
+input,
+select:focus {
+  outline: rgb(126, 158, 170);
+}
+
+.formlogin label {
+  margin-top: 35px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.formlogin p {
+  font-size: 15px;
+  padding: 3px;
+  color: red;
+}
+
+button {
+  border: none;
+  border-radius: 7px;
+  display: inline-block;
+  font-size: 15px;
+  padding: 10px 10px;
+  margin: 4px 2px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn {
+  background: rgb(53, 178, 219);
+}
+
+.btn1 {
+  background-color: rgb(245, 47, 47);
+}
+
+.btn2 {
+  background-color: rgb(57, 170, 94);
+}
+.btn3 {
+  border: 1px solid #aaaaaa;
+  background-color: white;
+  color: #aaaaaa;
+}
+.btn4 {
+  background-color: green;
+}
+.btn5 {
+  padding: 10px 10px;
+  font-size: 15px;
+  background-color: rgb(10, 10, 221);
+}
+.btn6 {
+  padding: 10px 12px;
+  font-size: 17px;
+  background-color: rgba(125, 22, 221, 0.986);
+}
+
+.add {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+span {
+  float: right;
+  cursor: pointer;
+}
+
+.formUser {
+  display: grid;
+  grid-template-columns: 13rem 13rem;
+  column-gap: 25px;
+  row-gap: 15px;
+}
+.formUser label {
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-right: 10px;
+}
+.formUser input,
+select {
+  margin-top: 10px;
+  width: 100%;
+}
+.formUser-input {
+  padding: 4px;
+  border: 0.1px solid rgb(126, 158, 170);
+}
+
+.formUser span {
+  float: left;
+  padding-top: 12px;
+  font-size: 15px;
+  color: red;
+}
+
+.edit {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+.list {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 20px;
+}
+
+.rol {
+  padding-top: 10px;
+}
+
+.bt {
+  background-color: rgb(51, 48, 48);
+  font-size: 17px;
+  color: dimgray;
+}
+.bt:hover {
+  color: aliceblue;
+}
+
+.img {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+}
+
+.detail img {
+  height: 80px;
+  width: 100px;
+}
+
+.container1 {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: minmax(1000px, auto);
+  padding-top: 4rem;
+}
